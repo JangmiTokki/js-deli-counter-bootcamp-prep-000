@@ -48,7 +48,7 @@ function currentLine(line)
     
     for(var j = 0; j < currentLine.length; j++)
     {
-      return "The line is currently: " + i + ". " + 
+      return "The line is currently: " + i + ". " + currentLine;
     }
   }
 }
