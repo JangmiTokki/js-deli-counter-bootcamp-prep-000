@@ -18,6 +18,6 @@ function takeANumber(deliLine, customer)
 
 function nowServing (katzDeliLine)
 {
-  return "Currently serving katzDeliLine[0];
+  return "Currently serving" + katzDeliLine[0] + ".";
   
 }
