@@ -43,7 +43,7 @@ function currentLine(line)
   {
     for(var i = 0; i < line.length; i++)
     {
-      currentLine+=line[i];
+      currentLine.push(line);
     }
     
     for(var j = 0; j < currentLine.length; j++)
