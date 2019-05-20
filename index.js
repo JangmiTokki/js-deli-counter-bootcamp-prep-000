@@ -16,11 +16,8 @@ function takeANumber(deliLine, customer)
   return welcomeMessage;
 }
 
-function nowServing (deliLine, customer)
+function nowServing (katzDeliLine)
 {
-  if(nowServing === undefined)
-  {
-    return "There is nobody waiting to be served!"
-  }
+  return "Currently serving katzDeliLine[0];
   
 }
