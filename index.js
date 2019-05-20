@@ -45,7 +45,7 @@ function currentLine(line)
     update = "The line is currently";
     for(var j = 0; j < currentLine.length; j++)
     {
-      update += `${(i+1)}. ${currentLine[i]} ,`;
+      update += (i+1)}. ${currentLine[i]} ,`;
     }
     return update;
   }
