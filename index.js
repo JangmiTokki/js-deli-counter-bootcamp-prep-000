@@ -43,10 +43,11 @@ function currentLine(line)
   else
   {
     update = "The line is currently";
-    for(var j = 0; j < line.length; j++)
+    for(var i = 0; i < line.length; i++)
     {
       update += `${(i+1)}. ${line[i]}, `;
     }
+    
     return update;
   }
 }
