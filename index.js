@@ -47,6 +47,6 @@ function currentLine(line)
       update += ` ${(i+1)}. ${line[i]}, `;
     }
     
-    return update.splice(0,-1);
+    return update.slice(0,-1);
   }
 }
