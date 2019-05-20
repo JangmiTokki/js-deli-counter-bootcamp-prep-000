@@ -17,5 +17,8 @@ function takeANumber(deliLine, customer)
 
 function nowServing ()
 {
-  if()
+  if(nowServing === null)
+  {
+    return "the line is empty"
+  }
 }
