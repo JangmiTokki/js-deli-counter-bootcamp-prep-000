@@ -42,10 +42,10 @@ function currentLine(line)
   }
   else
   {
-    update = 
+    update = "The people currently"
     for(var j = 0; j < currentLine.length; j++)
     {
-      return `The line is currently: ${currentLine[i]},`;
+      update +=  ${currentLine[i]},`;
     }
   }
 }
