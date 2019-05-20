@@ -1,12 +1,16 @@
 
 function takeANumber(deliLine, customer)
 {
-  deliLine.push(newCustomer);
+ 
   
   if( deliLine === null)
   {
-    deliLine.unshift(newCustomer);
+    deliLine = deliLine.unshift(customer);
   }
-  var welcomeMessage = `Welcome, + ${name}. You are number ${newCustomer.length} in line.`;
+  else
+  {
+    deliLie = deliLine.push(customer)
+  }
+  var welcomeMessage = `Welcome, + ${name}. You are number ${customer.length} in line.`;
   console.log(welcomeMessage);
 }
