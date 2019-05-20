@@ -43,9 +43,9 @@ function currentLine(line)
   else
   {
     update = "The line is currently";
-    for(var j = 0; j < currentLine.length; j++)
+    for(var j = 0; j < line.length; j++)
     {
-      update += (i+1).toString() + ". " +  currentLine[i] + "\,";
+      update += `${(i+1)}. ${line[i]}, `;
     }
     return update;
   }
