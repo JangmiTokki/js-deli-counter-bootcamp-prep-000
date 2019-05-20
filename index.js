@@ -20,6 +20,6 @@ function nowServing ()
 {
   if(nowServing === null)
   {
-    return "the line is empty"
+    return "There is nobody waiting to be served!"
   }
 }
