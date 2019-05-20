@@ -43,12 +43,7 @@ function currentLine(line)
   {
     for(var i = 0; i < line.length; i++)
     {
-      currentLine.push(line[i]);
-    }
-    
-    for(var j = 0; j < currentLine.length; j++)
-    {
-      return "The line is currently: " + i + ". " + currentLine;
+      return "The line is currently: " + i + ". " + line;
     }
   }
 }
