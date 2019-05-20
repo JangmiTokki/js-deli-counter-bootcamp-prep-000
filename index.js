@@ -9,7 +9,7 @@ function takeANumber(deliLine, customer)
   }
   else
   {
-    deliLine.push(customer)
+    deliLine.push(customer);
   }
   var welcomeMessage = `Welcome, ${customer}. You are number ${deliLine.length} in line.`;
 
@@ -21,7 +21,7 @@ function nowServing (katzDeliLine)
   var currentCustomer = katzDeliLine[0];
   if(katzDeliLine === undefined || katzDeliLine.length === 0)
   {
-    return "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!";
   }
   else
   {
@@ -36,6 +36,13 @@ function currentLine(line)
 {
   if(!line)
   {
-    
+    return "The line is currently empty.";
+  }
+  else
+  {
+    for(var i = 0; i < line.length; i++)
+    {
+      return line[i];
+    }
   }
 }
