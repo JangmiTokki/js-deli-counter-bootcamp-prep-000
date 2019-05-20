@@ -34,6 +34,7 @@ function nowServing (katzDeliLine)
 
 function currentLine(line)
 {
+  var update;
   var currentLine;
   if(line === undefined || line.length === 0)
   {
