@@ -42,7 +42,7 @@ function currentLine(line)
   }
   else
   {
-    currentLine = line.slice();
+    update = 
     for(var j = 0; j < currentLine.length; j++)
     {
       return `The line is currently: ${currentLine[i]},`;
