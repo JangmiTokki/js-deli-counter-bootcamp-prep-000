@@ -45,5 +45,10 @@ function currentLine(line)
     {
       currentLine+=line[i];
     }
+    
+    for(var j = 0; j < currentLine.length; j++)
+    {
+      return `The line is currently: ${currentLine[i]},`;
+    }
   }
 }
