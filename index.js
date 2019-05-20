@@ -16,3 +16,6 @@ function takeANumber(deliLine, customer)
 }
 
 function nowServing ()
+{
+  if()
+}
