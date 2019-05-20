@@ -1,5 +1,5 @@
 
-function takeANumber(deliLine, newCustomer)
+function takeANumber(deliLine, customer)
 {
   deliLine.push(newCustomer);
   
