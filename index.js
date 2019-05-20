@@ -12,8 +12,8 @@ function takeANumber(deliLine, customer)
     deliLine.push(customer)
   }
   var welcomeMessage = `Welcome, ${customer}. You are number ${deliLine.length} in line.`;
-  console.log(deliLine)
-  console.log(welcomeMessage);
+
+  return welcomeMessage;
 }
 
 function nowServing ()
