@@ -42,7 +42,7 @@ function currentLine(line)
   }
   else
   {
-    update = "The people currently"
+    update = "The line is currently";
     for(var j = 0; j < currentLine.length; j++)
     {
       update +=  ${currentLine[i]},`;
