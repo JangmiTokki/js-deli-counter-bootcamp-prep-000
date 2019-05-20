@@ -16,10 +16,11 @@ function takeANumber(deliLine, customer)
   return welcomeMessage;
 }
 
-function nowServing ()
+function nowServing (deliLine, customer)
 {
-  if(nowServing === null)
+  if(nowServing === undefined)
   {
     return "There is nobody waiting to be served!"
   }
+  
 }
