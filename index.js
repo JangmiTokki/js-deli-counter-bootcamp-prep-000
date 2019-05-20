@@ -41,11 +41,7 @@ function currentLine(line)
   }
   else
   {
-    for(var i = 0; i < line.length; i++)
-    {
-      currentLine.push(line);
-    }
-    
+    currentLine.slice()
     for(var j = 0; j < currentLine.length; j++)
     {
       return `The line is currently: ${currentLine[i]},`;
