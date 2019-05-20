@@ -18,7 +18,7 @@ function takeANumber(deliLine, customer)
 
 function nowServing (katzDeliLine)
 {
-  if(katzDeliLine === null)
+  if(katzDeliLine === undefined)
   {
     return "There is nobody waiting to be served!"
   }
