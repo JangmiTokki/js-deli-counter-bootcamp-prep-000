@@ -9,7 +9,7 @@ function takeANumber(deliLine, customer)
   }
   else
   {
-    deliLie = deliLine.push(customer)
+    deliLine = deliLine.push(customer)
   }
   var welcomeMessage = `Welcome, + ${name}. You are number ${customer.length} in line.`;
   console.log(welcomeMessage);
