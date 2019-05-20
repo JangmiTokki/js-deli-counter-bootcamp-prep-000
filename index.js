@@ -5,11 +5,11 @@ function takeANumber(deliLine, customer)
   
   if( deliLine === null)
   {
-    deliLine = deliLine.unshift(customer);
+    deliLine.unshift(customer);
   }
   else
   {
-    deliLine = deliLine.push(customer)
+    deliLine.push(customer)
   }
   var welcomeMessage = `Welcome, ${customer}. You are number ${deliLine.length} in line.`;
   console.log(deliLine)
